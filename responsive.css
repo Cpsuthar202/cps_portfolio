@@ -1,0 +1,109 @@
+@media screen and (max-width: 1000px) {
+    nav .logo p {
+        font-size: 4vw;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .fa{
+        display: block;
+    }
+
+    #home{
+        height: 450px;
+        padding-top: 140px;
+    } 
+
+    .cv{
+        width: 160px;
+    }
+
+    .prolist{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .prolist .pimg{
+        height: 250px;
+    }  
+}
+
+@media screen and (max-width:800px){
+    body h1{
+        font-size: 8vw;
+    }
+
+    nav .fa{
+        font-size: 4vw;
+    }
+
+    #home{
+        height: 250px;
+        padding: 50px;
+    }   
+    #home .head-text{
+        margin-top: 50px;  
+    }
+    
+    #about .about{
+        width:95vw;
+    }
+    .about p{
+        font-size: 3vw;
+    }
+    .about p .tn{
+        width: 100px;
+    }
+
+    .edu{
+        width: 95vw;
+    }
+    .liedu h2{
+        font-size: 3.7vw;
+    }
+    .liedu h3{
+        font-size: 2.5vw;
+    }
+
+    .skills1 {
+        width: 20%;
+    }
+    .skills1 p{
+        font-size: 3vw;
+    }
+
+    .project{
+        width: 95vw;
+    }
+    .gpro{
+        display: block;
+    }
+    .prolist{
+        width: 70%;
+        margin-bottom: 20px;  
+    }
+    .prolist .pimg{
+        height: 250px;
+    }
+    .prolist h2{
+        font-size: 5vw;
+    }
+    .prolist p{
+        font-style: 1vw;
+    }
+
+    .seminar h3{
+        width: 70vw;
+        font-size: 3vw; 
+    }
+
+    .cerlist{
+        width: 80%;
+    }
+    .cerlist h2{
+        
+        font-size: 4vw;  
+    }
+    .cerlist p{
+        font-size: 3vw;
+    }
+}
